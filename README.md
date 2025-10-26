@@ -1,0 +1,2 @@
+# Network scan report
+This project documents a network reconnaissance and vulnerability scanning task performed on the local subnet 10.0.2.0/24 using Kali Linux and Nmap. The process involved identifying live hosts, performing TCP SYN scans to detect open ports and running services, and assessing potential security risks using Nmap vulnerability scripts. Results were analyzed, documented, and saved in multiple formats for review, demonstrating key concepts of network scanning, port enumeration, and basic cybersecurity assessment.
