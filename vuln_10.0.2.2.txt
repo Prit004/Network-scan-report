@@ -1,0 +1,20 @@
+# Nmap 7.95 scan initiated Wed Oct 22 02:20:41 2025 as: /usr/lib/nmap/nmap -sS -sV --script=vuln -p22,80,135,139,445 -oN /home/kali/vuln_10.0.2.2.txt 10.0.2.2
+Nmap scan report for 10.0.2.2
+Host is up (0.0042s latency).
+
+PORT    STATE    SERVICE       VERSION
+22/tcp  open     ssh           OpenSSH for_Windows_9.5 (protocol 2.0)
+80/tcp  filtered http
+135/tcp open     msrpc         Microsoft Windows RPC
+139/tcp filtered netbios-ssn
+445/tcp open     microsoft-ds?
+MAC Address: 52:55:0A:00:02:02 (Unknown)
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Host script results:
+|_samba-vuln-cve-2012-1182: Could not negotiate a connection:SMB: Failed to receive bytes: ERROR
+|_smb-vuln-ms10-061: Could not negotiate a connection:SMB: Failed to receive bytes: ERROR
+|_smb-vuln-ms10-054: false
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Oct 22 02:21:18 2025 -- 1 IP address (1 host up) scanned in 37.18 seconds

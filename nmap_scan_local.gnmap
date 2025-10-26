@@ -1,0 +1,8 @@
+# Nmap 7.95 scan initiated Wed Oct 22 02:13:52 2025 as: /usr/lib/nmap/nmap -sS -oA /home/kali/nmap_scan_local 10.0.2.0/24
+Host: 10.0.2.2 ()	Status: Up
+Host: 10.0.2.2 ()	Ports: 22/open/tcp//ssh///, 135/open/tcp//msrpc///, 445/open/tcp//microsoft-ds///, 1055/open/tcp//ansyslmd///, 1084/open/tcp//ansoft-lm-2///, 7070/open/tcp//realserver///	Ignored State: filtered (994)
+Host: 10.0.2.3 ()	Status: Up
+Host: 10.0.2.3 ()	Ports: 53/open/tcp//domain///	Ignored State: filtered (999)
+Host: 10.0.2.15 ()	Status: Up
+Host: 10.0.2.15 ()	Ports: 	Ignored State: closed (1000)
+# Nmap done at Wed Oct 22 02:13:59 2025 -- 256 IP addresses (3 hosts up) scanned in 7.35 seconds
